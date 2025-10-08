@@ -1,0 +1,302 @@
+[
+  {
+    "requestId": "interception-job-21.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/user/",
+      "method": "OPTIONS",
+      "headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "authorization",
+        "Access-Control-Request-Method": "GET",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "B30D1A278AD56DBFCD5A186763FCBA11"
+  },
+  {
+    "requestId": "interception-job-22.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/user/",
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "authorization": "Token 3fbeebdd5931eb4dafbb11c91f25f8d2b80f61ca",
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "47620.31"
+  },
+  {
+    "requestId": "interception-job-29.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/frontend_settings/?debug.user=310506",
+      "method": "OPTIONS",
+      "headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "authorization",
+        "Access-Control-Request-Method": "GET",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "F308067E92B653C6BC119CAAE92E71AD"
+  },
+  {
+    "requestId": "interception-job-31.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/user/?debug.user=310506",
+      "method": "OPTIONS",
+      "headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "authorization",
+        "Access-Control-Request-Method": "GET",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "6C7F4B8844201EE4060DF762F670F6A8"
+  },
+  {
+    "requestId": "interception-job-32.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/proctoring/sessions?get_exams=1&debug.user=310506",
+      "method": "OPTIONS",
+      "headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "authorization",
+        "Access-Control-Request-Method": "GET",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "EAF1A89504DD113407D56BF79B36AAD1"
+  },
+  {
+    "requestId": "interception-job-34.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/frontend_settings/?debug.user=310506",
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "authorization": "Token 3fbeebdd5931eb4dafbb11c91f25f8d2b80f61ca",
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "47620.47"
+  },
+  {
+    "requestId": "interception-job-35.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/user/?debug.user=310506",
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "authorization": "Token 3fbeebdd5931eb4dafbb11c91f25f8d2b80f61ca",
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "47620.49"
+  },
+  {
+    "requestId": "interception-job-36.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/proctoring/sessions?get_exams=1&debug.user=310506",
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "authorization": "Token 3fbeebdd5931eb4dafbb11c91f25f8d2b80f61ca",
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "47620.50"
+  },
+  {
+    "requestId": "interception-job-38.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/proctoring/sessions/?get_exams=1&debug.user=310506",
+      "method": "OPTIONS",
+      "headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "authorization",
+        "Access-Control-Request-Method": "GET",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "941AAF3BAE11FEEDEDBA9127BAE897BD"
+  },
+  {
+    "requestId": "interception-job-40.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/proctoring/sessions/?get_exams=1&debug.user=310506",
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "authorization": "Token 3fbeebdd5931eb4dafbb11c91f25f8d2b80f61ca",
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "47620.50"
+  },
+  {
+    "requestId": "interception-job-53.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/proctoring/sessions/313645/messages/?debug.user=310506",
+      "method": "OPTIONS",
+      "headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "authorization,content-type",
+        "Access-Control-Request-Method": "POST",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+      },
+      "hasPostData": false,
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "34100408C5E3F37E2A40DD5CB2DEA50C"
+  },
+  {
+    "requestId": "interception-job-56.0",
+    "request": {
+      "url": "https://moon.examus.net/api/v2/proctoring/sessions/313645/messages/?debug.user=310506",
+      "method": "POST",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://demo-stand.student.examus.net",
+        "Referer": "https://demo-stand.student.examus.net/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "authorization": "Token 3fbeebdd5931eb4dafbb11c91f25f8d2b80f61ca",
+        "content-type": "application/json",
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "hasPostData": true,
+      "postDataEntries": [
+        {
+          "bytes": "eyJwcm90b2NvbF9tZXNzYWdlX3R5cGUiOiJQUk9UT0NPTF9DWUJFUlBST0NUT1JfU1RBVFVTIiwicHJvdG9jb2xfanNvbl9kYXRhIjp7ImZhY2VfZGV0ZWN0aW9uIjp7InN0YXR1cyI6IlBsYW4iLCJkYXRlIjoiMjAyNS0wOC0xN1QxNzo1Mzo1Ni44NTlaIn0sImZhY2VfcmVjb2duaXRpb24iOnsic3RhdHVzIjoiUGxhbiIsImRhdGUiOiIyMDI1LTA4LTE3VDE3OjUzOjU2Ljg1OVoifSwidm9pY2UiOnsic3RhdHVzIjoiUGxhbiIsImRhdGUiOiIyMDI1LTA4LTE3VDE3OjUzOjU2Ljg1OVoifSwiZ2FkZ2V0cyI6eyJzdGF0dXMiOiJQbGFuIiwiZGF0ZSI6IjIwMjUtMDgtMTdUMTc6NTM6NTYuODU5WiJ9LCJkb2N1bWVudHMiOnsic3RhdHVzIjoiUGxhbiIsImRhdGUiOiIyMDI1LTA4LTE3VDE3OjUzOjU2Ljg1OVoifX19"
+        }
+      ],
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isLinkPreload": false,
+      "isSameSite": false
+    },
+    "frameId": "E614951A4237638760C539C193979E91",
+    "resourceType": "XHR",
+    "networkId": "47620.66"
+  }
+]

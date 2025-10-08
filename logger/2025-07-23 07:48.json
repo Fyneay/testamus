@@ -1,0 +1,1 @@
+{"requestURL":"https://example.com","requestMethod":"GET","message":"test message","timestamp":"2021-01-01 12:00:00"}{"requestURL":"https://example1.com","requestMethod":"POST","message":"test message1","timestamp":"2021-01-01 12:00:01"}{"requestURL":"https://example2.com","requestMethod":"PUT","message":"test message2","timestamp":"2021-01-01 12:00:02"}
