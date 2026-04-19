@@ -9,9 +9,7 @@ RUN go mod download
 
 COPY . .
 
-#RUN go get github.com/chromedp/cdproto/dom
-RUN go get -u github.com/chromedp/chromedp && go get github.com/chromedp/cdproto \
-     && go mod tidy
+RUN go mod tidy
 
 RUN CGO_ENABLED=0 GOOS=linux go build -o main .
 

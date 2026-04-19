@@ -6,6 +6,16 @@ import (
 	"reflect"
 )
 
+type ProblemMessage struct {
+	is_cyber      string `json:is_cyber`
+	warning_type  string `json:warning_type`
+	warning_start string `json:warning_start`
+}
+
+var tP ProblemMessage
+
+var jsonMessage map[string]interface{}
+
 func CheckJsonFilter(messages []byte) (bool, error) {
 	var request map[string]interface{}
 	flag := false
@@ -25,13 +35,3 @@ func CheckJsonFilter(messages []byte) (bool, error) {
 	}
 	return flag, err
 }
-
-type ProblemMessage struct {
-	is_cyber      string `json:is_cyber`
-	warning_type  string `json:warning_type`
-	warning_start string `json:warning_start`
-}
-
-var tP ProblemMessage
-
-var jsonMessage map[string]interface{}

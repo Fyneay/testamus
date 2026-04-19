@@ -9,7 +9,6 @@ import (
 	"sync"
 	"testamus/logger"
 	"testamus/thief"
-	"time"
 
 	"github.com/chromedp/cdproto/cdp"
 	"github.com/chromedp/cdproto/fetch"
@@ -32,22 +31,15 @@ func main() {
 
 	if err := chromedp.Run(ctx,
 		network.Enable(),
-
-		//Настроить фильтрацию по url, методу, типу ресурса, стадии запроса (смотри WithPatterns)
 		fetch.Enable().WithPatterns([]*fetch.RequestPattern{
 			{
 				URLPattern: "*/api/v2*",
 				//RequestStage: fetch.RequestStageRequest,
 				//ResourceType: network.ResourceTypeXHR,
 			},
-			// {
-			// 	URLPattern:   "*moon.examus.net/api/v2/*",
-			// 	RequestStage: fetch.RequestStageResponse,
-			// 	//ResourceType: network.ResourceTypeXHR,
-			// },
 		}),
 	); err != nil {
-		log.Fatal("Error enabling fetch with patterns:", err)
+		log.Fatal("Ошибка в шаблонах запроса:", err)
 	}
 
 	chromedp.ListenTarget(ctx, func(ev interface{}) {
@@ -96,11 +88,7 @@ func main() {
 
 	if err := chromedp.Run(ctx,
 		chromedp.Tasks{
-			chromedp.Navigate("https://lms.demo.examus.net/demo_examus/"),
-			chromedp.Sleep(2 * time.Second),
-			chromedp.Click(".start-demo", chromedp.NodeVisible),
-			chromedp.Sleep(3 * time.Second),
-			chromedp.Evaluate(`console.clear = () => {}`, nil),
+			chromedp.Navigate("about:blank"),
 		},
 	); err != nil {
 		log.Fatal("Появление ошибки: ", err)
